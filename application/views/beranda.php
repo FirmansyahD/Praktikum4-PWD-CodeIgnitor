@@ -8,12 +8,15 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/style.css">
 </head>
     <body>
+  
             <div class="back">
 
             <header>
                 <div class="tetap">
             <nav>
+
                     <ul>
+                        <a href="<?=base_url()?>index.php/welcome/utama"><li class="icon"></li></a>
                         <li><a href="<?=base_url()?>index.php/welcome/utama"id="li">Home</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/event">Event</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/gallery">Gallery</a></li>
@@ -34,5 +37,7 @@
             <div>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta necessitatibus fugiat magni? Consectetur, nostrum? Ipsam quisquam obcaecati quaerat, corrupti alias, animi eligendi magnam voluptate doloremque aliquid vero esse consequuntur amet?</p>
             </div>
+            <a href="<?=base_url()?>index.php/welcome/utama"><div class="icon2"></div>
+                    </a>
     </body>
 </html>

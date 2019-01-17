@@ -9,30 +9,33 @@
 </head>
     <body>
             <div class="back">
-
+            
             <header>
                 <div class="tetap">
             <nav>
                     <ul>
+                        <a href="<?=base_url()?>index.php/welcome/utama"><li class="icon"></li></a>
                         <li><a href="<?=base_url()?>index.php/welcome/utama">Home</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/event">Event</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/gallery">Gallery</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/contact"id="li">Contact</a></li>
-                        <li><a href="<?=base_url()?>index.php/welcome/profil">MyProfil</a></li>
+                        <li><a href="<?=base_url()?>index.php/welcome/profil">Profil</a></li>
                     </ul>
                 </nav>
                 </div>
             </header>
             
+            
+            
                 <div class="profil">
                     <div id="h1">
                     <h1><a href="https://www.instagram.com/tara.firmansyah/">Hubungi Saya di @tara.firmansyah </a></h1>            
-        
-                    </div>
-                    </div>
-            </div>   
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta necessitatibus fugiat magni? Consectetur, nostrum? Ipsam quisquam obcaecati quaerat, corrupti alias, animi eligendi magnam voluptate doloremque aliquid vero esse consequuntur amet?</p>
-            </div>
+                    <h1><a href="https://Apple.com">Kunjungi Website Apple  </a></h1>            
+                </div>
+                    
+            </div>  
+            <a href="https://www.instagram.com/tara.firmansyah/"><div class="icon4"></div></a>
+            <a href="https://Apple.com"><div class="icon3"></div>
+                    </a>
     </body>
 </html>

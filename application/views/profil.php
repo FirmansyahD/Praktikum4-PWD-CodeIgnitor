@@ -14,11 +14,12 @@
                 <div class="tetap">
             <nav>
                     <ul>
+                        <a href="<?=base_url()?>index.php/welcome/utama"><li class="icon"></li></a>
                         <li><a href="<?=base_url()?>index.php/welcome/utama">Home</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/event">Event</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/gallery">Gallery</a></li>
                         <li><a href="<?=base_url()?>index.php/welcome/contact">Contact</a></li>
-                        <li><a href="<?=base_url()?>index.php/welcome/profil"id="li">MyProfil</a></li>
+                        <li><a href="<?=base_url()?>index.php/welcome/profil"id="li">Profil</a></li>
                     </ul>
                 </nav>
                 </div>
@@ -45,5 +46,7 @@
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta necessitatibus fugiat magni? Consectetur, nostrum? Ipsam quisquam obcaecati quaerat, corrupti alias, animi eligendi magnam voluptate doloremque aliquid vero esse consequuntur amet?</p>
             </div>            
+            <a href="<?=base_url()?>index.php/welcome/utama"><div class="icon2"></div>
+                    </a>
     </body>
 </html>
